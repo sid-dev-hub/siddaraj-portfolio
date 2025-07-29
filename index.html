@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans min-h-screen">
+
+  <!-- Top Section -->
+  <header class="text-center py-10 bg-gray-800 shadow">
+    <h1 class="text-4xl font-bold">Siddaraj Salakki</h1>
+    <p class="text-lg text-gray-400 mt-2">DevOps Engineer | Cloud Enthusiast</p>
+
+    <div class="mt-4 flex justify-center space-x-4 text-gray-300">
+      <a href="mailto:youremail@example.com" class="hover:text-white">Email</a>
+      <a href="https://github.com/yourgithub" class="hover:text-white">GitHub</a>
+      <a href="https://linkedin.com/in/yourlinkedin" class="hover:text-white">LinkedIn</a>
+    </div>
+  </header>
+
+  <!-- Rectangular Tabs -->
+  <nav class="bg-gray-700 shadow-md sticky top-0 z-50 text-white px-6">
+    <div class="flex justify-center space-x-4 py-3">
+      <a href="#about" class="bg-gray-800 hover:bg-gray-600 px-4 py-2 rounded text-white font-medium">About</a>
+      <a href="#resume" class="bg-gray-800 hover:bg-gray-600 px-4 py-2 rounded text-white font-medium">Resume</a>
+      <a href="#portfolio" class="bg-gray-800 hover:bg-gray-600 px-4 py-2 rounded text-white font-medium">Projects</a>
+      <a href="#contact" class="bg-gray-800 hover:bg-gray-600 px-4 py-2 rounded text-white font-medium">Contact</a>
+    </div>
+  </nav>
+
+<body class="bg-gray-900 text-white font-sans min-h-screen scroll-smooth">
+
+  <!-- (Header and Nav from Step 1 stay the same) -->
+
+  <!-- About Section -->
+  <section id="about" class="pt-[0.75cm] pb-[0.75cm] px-[1.5cm] mt-10 bg-gray-800 max-w-4xl mx-auto scroll-mt-24">
+    <h2 class="text-3xl font-bold mb-4">Profile</h2>
+   <p class="text-gray-300 text-lg leading-relaxed">
+    Hi, I'm Siddaraj — a DevOps Engineer with 3+ years of experience in automating cloud infrastructure and streamlining CI/CD workflows. I work with tools like Terraform, Ansible, Jenkins, GitHub Actions, Docker, and Kubernetes (EKS) to build reliable, scalable systems on AWS.
+
+I'm passionate about automation, observability, and solving real-world problems with efficient solutions. My goal is to grow into a Cloud Platform Engineer role where I can design scalable systems and mentor engineering teams.
+  </p>
+
+  <p class="text-gray-300 text-lg mt-4 leading-relaxed">
+    I've worked with Jenkins, GitHub Actions, Docker, and Kubernetes (EKS), building pipelines that reduce deployment time and boost reliability. My strengths lie in automation, observability, and building systems that are stable, secure, and maintainable.
+  </p>
+
+  <p class="text-gray-300 text-lg mt-4 leading-relaxed">
+    Whether it's optimizing Docker images, writing Bash scripts, or integrating monitoring with Prometheus and Grafana, I focus on solutions that scale. I’m also comfortable troubleshooting production issues and enhancing cloud performance and cost efficiency.
+  </p>
+
+  <p class="text-gray-300 text-lg mt-4 leading-relaxed">
+    My career goal is to grow into a Cloud Platform Engineer role where I can design scalable systems, mentor others, and contribute to infrastructure decisions that enable high-performing teams.
+  </p>
+  </section>
+
+<hr class="my-16 border-gray-700">
+
+  <!-- Resume Section -->
+  <section id="resume" class="pt-[0.75cm] pb-[0.75cm] px-[1.5cm] mt-10 bg-gray-800 max-w-4xl mx-auto scroll-mt-24">
+    <h2 class="text-3xl font-bold mb-4">Experience</h2>
+<div class="mb-6">
+<h5 class="text-xl font-semibold mb-2">Accenture - DevOps Engineer - 2021-2022</h5>
+<p>At Company 2, I automated infrastructure provisioning using Terraform with remote state on S3, and configured Ansible playbooks for environment setup. I developed CI/CD pipelines using Jenkins to deploy Dockerized apps on AWS EC2. I managed IAM roles, VPCs, and security groups, and integrated monitoring with Prometheus and Grafana. I also resolved deployment issues, coordinated with developers during sprints, and reduced release times by ~35%. I maintained Linux servers (Ubuntu/CentOS), handled logs via CloudWatch, and wrote Bash scripts to automate daily ops tasks. The role sharpened my cloud infrastructure skills and helped drive consistency and uptime across staging and production.</p>
+</div>
+
+<div class=""mb-8">
+<h5 class="text-xl font-semibold mb-2">Genpact - Jr. DevOps Engineer - 2019-2021<h5>
+<p>At Company 1, I led CI/CD implementation using GitHub Actions and Jenkins, supporting 20+ microservices across dev, staging, and prod. I built IaC using Terraform modules for EC2, S3, IAM, and VPC, enforcing reusable infrastructure patterns. I containerized legacy apps with Docker and orchestrated basic Kubernetes components like pods, deployments, and services. I integrated Nexus for artifact management and implemented GitOps workflows. I automated system checks and environment provisioning with advanced Bash scripting and maintained OS-level configurations. Collaborated with developers, QA, and security teams to enforce DevSecOps best practices using tools like Trivy and Gitleaks. Enabled faster releases and reduced infra drift.</p>
+</div>
+
+
+<section id="skills" class="py-6 max-w-4xl mx-auto px-2 ">
+  <h2 class="text-2xl font-bold text-white mb-6 text-left">Skills</h2>
+<div class="bg-[#2d3748] p-4 rounded-md shadow hover:shadow-md transition-all">
+  <div class="grid grid-cols-2 gap-4">
+
+    <!-- Cloud -->
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/server.png" alt="Cloud" class="w-5 h-5 mt-1" />
+      <p><strong>Cloud:</strong> AWS (EC2, S3, IAM, VPC), Azure (VMs, NSGs)</p>
+    </div>
+
+    <!-- IaC -->
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/terraform.png" alt="IaC" class="w-5 h-5 mt-1" />
+      <p><strong>IaC:</strong> Terraform (modules, remote state), Ansible (Playbooks)</p>
+    </div>
+
+    <!-- CI/CD -->
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/pipe.png" alt="CI/CD" class="w-5 h-5 mt-1" />
+      <p><strong>CI/CD:</strong> Jenkins, GitHub Actions, Git, Nexus, JFrog, GitOps</p>
+    </div>
+
+    <!-- Containers -->
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/dock.png" alt="Containers" class="w-5 h-5 mt-1" />
+      <p><strong>Containers:</strong> Docker, Kubernetes (pods, deployments, services), EKS</p>
+    </div>
+
+    <!-- Monitoring -->
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/monit.png" alt="Monitoring" class="w-5 h-5 mt-1" />
+      <p><strong>Monitoring:</strong> Prometheus, Grafana, CloudWatch, Nagios</p>
+    </div>
+
+    <!-- Scripting & OS -->
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/script.png" alt="Scripting" class="w-5 h-5 mt-1" />
+      <p><strong>Scripting & OS:</strong> Bash (advanced), Python (basic), Linux, Windows Server</p>
+    </div>
+
+    <!-- Security & Networking -->
+<div class="flex items-start gap-3 text-sm text-gray-200">
+    <div class="flex items-start gap-3 text-sm text-gray-200">
+      <img src="icons/netsec.png" alt="Security" class="w-5 h-5 mt-1" />
+      <p><strong>Security & Networking:</strong> DNS, TCP/IP, Firewalls, Trivy, Gitleaks</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="education" class="py-2 max-w-4xl mx-auto">
+  <h2 class="text-2xl font-bold text-white mb-6 text-left">Education</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Degree 1 -->
+    <div class="bg-[#2d3748] p-4 rounded-md shadow hover:shadow-md transition-all">
+      <h3 class="text-white font-semibold text-lg">Master of Computer Application</h3>
+      <p class="text-gray-300 text-sm">KLE Institute of Technology, VTU</p>
+      <p class="text-gray-400 text-sm">Hubli</p>
+    </div>
+
+    <!-- Degree 2 -->
+    <div class="bg-[#2d3748] p-4 rounded-md shadow hover:shadow-md transition-all">
+      <h3 class="text-white font-semibold text-lg">Bachelor of Computer Application</h3>
+      <p class="text-gray-300 text-sm">N V Degree College, GUG</p>
+      <p class="text-gray-400 text-sm">Kalaburagi</p>
+    </div>
+  </div>
+</section>
+  </section>
+
+<hr class="my-16 border-gray-700">
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="pt-[0.75cm] pb-[0.75cm] px-[1.5cm] mt-10 bg-gray-800 max-w-4xl mx-auto scroll-mt-24">
+    <h2 class="text-3xl font-bold mb-4">Projects</h2>
+    <p class="text-gray-300 mb-4">Below are two personal projects that showcase my practical skills in DevOps, automation, and cloud infrastructure.</p>
+    
+<!-- You can add project cards here -->
+<!-- Project Cards Container -->
+<div class="flex flex-col md:flex-row">
+  <!-- Card 1 -->
+  <div class="flex-1 md:pr-6">
+    <h3 class="text-xl font-semibold text-white">Web-Based Tic Tac Toe game</h3>
+    <p class="text-gray-400 mt-2">
+      A lightweight web-based Tic Tac Toe game built with Node.js and Express, served via a single HTML file.
+      The app is containerized with Docker and integrated with Jenkins for automated CI/CD via a Jenkinsfile.
+    </p>
+    <p class="text-sm text-gray-500 mt-2">Tech: Node.js, Express, Docker, Jenkins</p>
+    <a href="https://github.com/sid-dev-hub/simple-game-nodejs" class="text-blue-400 hover:text-blue-200 text-sm mt-2 inline-block">View Project</a>
+  </div>
+
+  <!-- Divider -->
+  <div class="hidden md:block w-px bg-gray-700 mx-6"></div>
+
+  <!-- Card 2 -->
+  <div class="flex-1 md:pl-6">
+    <h3 class="text-xl font-semibold text-white">GitOps Demo using EKS and ArgoCD</h3>
+    <p class="text-gray-400 mt-2">
+      A demo project implementing GitOps using Terraform, Amazon EKS, and ArgoCD.
+      It provisions infrastructure and deploys an NGINX app through ArgoCD using Git as the source of truth.
+    </p>
+    <p class="text-sm text-gray-500 mt-2">Tech: Terraform, Amazon EKS, ArgoCD</p>
+    <a href="https://github.com/sid-dev-hub/eks-gitops-project" class="text-blue-400 hover:text-blue-200 text-sm mt-2 inline-block">View Project</a>
+  </div>
+</div>
+
+
+  </section>
+
+<hr class="my-16 border-gray-700">
+
+  <!-- Contact Section -->
+  <section id="contact" class="pt-[0.75cm] pb-[0.75cm] px-[1.5cm] mt-10 mb-6 bg-gray-800 max-w-4xl mx-auto ">
+    <h2 class="text-3xl font-bold mb-4">Contact</h2>
+    <p class="text-gray-300">Feel free to reach out via <a href="mailto:youremail@example.com" class="underline text-blue-400 hover:text-blue-200">email</a>.</p>
+
+<form class="max-w-xl mx-auto mt-8 space-y-4">
+  <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+  
+  <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+  
+  <textarea rows="5" placeholder="Your Message" class="w-full px-4 py-2 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+  
+  <button type="submit" class="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded text-white font-semibold">Send</button>
+</form>
+
+  </section>
+
+</body>
+
+
+</body>
+</html>
