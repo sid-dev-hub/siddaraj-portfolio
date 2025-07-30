@@ -41,10 +41,15 @@
     View
   </a>
 
-  <a href="Siddaraj_Salakki_v2.pdf" download class="flex items-center gap-1 hover:underline">
+  <a href="Siddaraj_Salakki_v2.pdf" id="resume-download-link download class="flex items-center gap-1 hover:underline">
     <img src="icons/download.png" alt="Download" class="w-4 h-4 align-middle" />
     Download
   </a>
+<script>
+  document.getElementById("resume-download-link").addEventListener("click", function () {
+    fetch("/.netlify/functions/log-resume-download", { method: "POST" });
+  });
+</script>
 </div>
 
     </div>
